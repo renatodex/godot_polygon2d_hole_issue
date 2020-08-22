@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Polygon2" type="Polygon2D" parent="."]
+position = Vector2( -60.7421, -12.0072 )
+polygon = PoolVector2Array( 566.159, 79.3329, 566.865, 543.374, 712.363, 539.136, 701.062, 80.0392 )
+
+[node name="Polygon1" type="Polygon2D" parent="."]
+position = Vector2( -60.7421, -12.0072 )
+color = Color( 0.403922, 0.254902, 0.694118, 1 )
+polygon = PoolVector2Array( 633.964, 157.733, 457.388, 82.8644, 282.931, 193.048, 286.463, 415.533, 446.793, 537.017, 631.845, 456.499, 631.845, 368.211, 465.864, 409.883, 467.982, 192.341, 625.488, 238.251 )
